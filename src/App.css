@@ -1,38 +1,127 @@
-.App {
+
+body {
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 50px;
+}
+
+header {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  /* flex-direction: row; */
+}
+.icons {
+  text-align: right;
+  
+}
+.logo {
+  font-size: 2rem;
+  font-family: 'Parisienne', cursive;
+  font-weight: 900;
+}
+
+.best-food {
+  margin-bottom: 0px;
+  margin-top: -12px;
+}
+
+/* .delicious {
+  line-height: ;
+} */
+
+.bodyheader {
+  margin-bottom: 0px;
+  font-size: 200%;
+  font-weight: bold;
+}
+.postedon {
+  margin-top: 0px;
+  color: gray;
+  font-size: 80%;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  height: 12px;
+  background-color: lightgray;
+
+}
+
+.bodyheadcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.list {
+  /* background-image: url('./assets/list-bg.png'); */
+  height: 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 130%;
+}
+
+ul {
+  list-style-type: "\2610   ";
+}
+
+.checked {
+  list-style-type: "\2611   ";
+}
+.print-logo {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+
+.print-logo img {
+  height: 15px;
+  
+  display: inline-block;
+}
+
+.vanessa {
+  display: flex;
+  flex-direction: row;
+}
+.vanessa img {
+  margin-right: 25px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+button {
+  margin-left: 80px;
+  background-color: rgb(185, 70, 24);
+  color: white;
+  height: 50px;
+  width: 150px;
+  border: none;
+}
+
+.enthusiast {
+  width: 500px;
+}
+
+footer {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer img {
+  margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.copyright {
+  color: grey;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottom-line {
+  height: 1px;
 }
